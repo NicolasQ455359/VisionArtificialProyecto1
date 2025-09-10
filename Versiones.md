@@ -1,5 +1,7 @@
 
 ## Versión 1 — Detección básica (colores sobre movimiento)
+[Sketch en p5.js – NicolasQ455359](https://editor.p5js.org/NicolasQ455359/sketches/Z5HcnoSk3)
+
 ```javascript
 let video, prevFrame;
 
@@ -38,6 +40,8 @@ function draw(){
 }
 ```
 ## Versión 2 — Fondo negro + estelas
+[Sketch en p5.js – NicolasQ455359 (ID: 1nPJtYEeR)](https://editor.p5js.org/NicolasQ455359/sketches/1nPJtYEeR)
+
 ```javascript
 let video, prevFrame, trails;
 
@@ -76,6 +80,8 @@ function draw(){
 }
 ```
 ## Versión 3 — Modos automáticos (Holograma ↔ Pincel de Luz)
+[Sketch en p5.js – NicolasQ455359 (ID: S32tuA8sR)](https://editor.p5js.org/NicolasQ455359/sketches/S32tuA8sR)
+
 ```javascript
 let video, prevFrame, trails;
 let energyEMA = 0, mode = 1;
@@ -133,6 +139,7 @@ function draw(){
 }
 ```
 ## Versión 4 — Visual neón multicapa
+
 ```javascript
 let video, prevFrame, trails;
 let hueOffset=0;
